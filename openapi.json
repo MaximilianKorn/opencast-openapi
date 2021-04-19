@@ -197,6 +197,7 @@
         "description": "Returns a list of series.",
         "responses": {
           "200": {
+			"description": "A (potentially empty) list of series is returned as JSON array contained JSON objects.",
             "content": {
               "application/json": {
                 "schema": {
